@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-2#h!7se2)c3@=dhb2avhh^o!o+9yhmkx%+x)cbe^6i1jp5a__#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', 'port-0-minihackathon-12-lyec0qpi97716ac6.sel5.cloudtype.app']
 
 
 # Application definition
