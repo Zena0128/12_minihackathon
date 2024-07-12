@@ -92,7 +92,7 @@ class MovieCrawlView(APIView):
     def get(self, request):
         movies = Movie.objects.all()
         response = MovieCrawlSerializer(movies, many=True).data
-        return Response(response, status=status.HTTP_200_OK)
+        return Response({"movies" : response}, status=status.HTTP_200_OK)
 
 class MovieListView(APIView):
     def get(self, request):
