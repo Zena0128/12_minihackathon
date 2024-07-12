@@ -20,7 +20,7 @@ class MovieCrawlSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Movie
-        fields = '__all__'
+        exclude = ['id']
 
 class MovieListSerializer(serializers.ModelSerializer):
     class Meta:
